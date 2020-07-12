@@ -1765,3 +1765,282 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 2020.07.12 23:41:11 INFO  time: compiled root in 0.65s
 2020.07.12 23:41:13 INFO  compiling root (1 scala source)
 2020.07.12 23:41:13 INFO  time: compiled root in 0.59s
+No more data in the client stdin, exiting...
+2020.07.13 00:13:42 INFO  started: Metals version 0.9.1 in workspace '/Users/kijimayuutairou/hobby/twitter-clone2'
+2020.07.13 00:13:42 INFO  time: initialize in 0.32s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher2594529338357191246/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.13 00:13:43 INFO  no build target: using presentation compiler with only scala-library
+2020.07.13 00:13:43 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+2020.07.13 00:13:45 WARN  no build target for: /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop/root-test.json'
+[0m[32m[D][0m Loading project from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop/root.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.2.
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Loading previous analysis for 'root' from '/Users/kijimayuutairou/hobby/twitter-clone2/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher2594529338357191246/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher2594529338357191246/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.13 00:13:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kijimayuutairou/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.07.13 00:13:47 INFO  time: connected to build server in 4.49s
+2020.07.13 00:13:47 INFO  Connected to Build server v1.4.3
+2020.07.13 00:13:47 INFO  time: imported build in 0.11s
+2020.07.13 00:13:49 INFO  time: indexed workspace in 1.25s
+2020.07.13 00:13:49 INFO  compiling root (1 scala source)
+2020.07.13 00:13:52 INFO  compiling root-test (1 scala source)
+2020.07.13 00:13:52 INFO  time: compiled root in 2.77s
+2020.07.13 00:13:52 INFO  time: compiled root-test in 0.54s
+2020.07.13 00:14:08 INFO  compiling root (1 scala source)
+2020.07.13 00:14:08 INFO  time: compiled root in 0.54s
+2020.07.13 00:14:17 INFO  compiling root (1 scala source)
+2020.07.13 00:14:17 INFO  time: compiled root in 0.91s
+2020.07.13 00:14:19 INFO  compiling root (1 scala source)
+2020.07.13 00:14:19 INFO  time: compiled root in 0.6s
+7 13, 2020 12:52:29 ?? org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+??: Unmatched cancel notification for request id 10
+2020.07.13 00:53:26 INFO  compiling root (1 scala source)
+2020.07.13 00:53:26 INFO  time: compiled root in 0.14s
+2020.07.13 00:53:34 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:4:10: stale bloop error: not found: value FollowController
+  import FollowController._
+         ^^^^^^^^^^^^^^^^
+2020.07.13 00:53:34 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:5:10: stale bloop error: not found: value TweetController
+  import TweetController._
+         ^^^^^^^^^^^^^^^
+2020.07.13 00:53:34 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:6:10: stale bloop error: not found: value UserController
+  import UserController._
+         ^^^^^^^^^^^^^^
+2020.07.13 00:53:34 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:4:10: stale bloop error: not found: value FollowController
+  import FollowController._
+         ^^^^^^^^^^^^^^^^
+2020.07.13 00:53:34 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:5:10: stale bloop error: not found: value TweetController
+  import TweetController._
+         ^^^^^^^^^^^^^^^
+2020.07.13 00:53:34 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:6:10: stale bloop error: not found: value UserController
+  import UserController._
+         ^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:4:10: stale bloop error: not found: value FollowController
+  import FollowController._
+         ^^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:5:10: stale bloop error: not found: value TweetController
+  import TweetController._
+         ^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:6:10: stale bloop error: not found: value UserController
+  import UserController._
+         ^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:4:10: stale bloop error: not found: value FollowController
+  import FollowController._
+         ^^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:5:10: stale bloop error: not found: value TweetController
+  import TweetController._
+         ^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:6:10: stale bloop error: not found: value UserController
+  import UserController._
+         ^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:4:10: stale bloop error: not found: value FollowController
+  import FollowController._
+         ^^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:5:10: stale bloop error: not found: value TweetController
+  import TweetController._
+         ^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:6:10: stale bloop error: not found: value UserController
+  import UserController._
+         ^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:4:10: stale bloop error: not found: value FollowController
+  import FollowController._
+         ^^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:5:10: stale bloop error: not found: value TweetController
+  import TweetController._
+         ^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:6:10: stale bloop error: not found: value UserController
+  import UserController._
+         ^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:4:10: stale bloop error: not found: value FollowController
+  import FollowController._
+         ^^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:5:10: stale bloop error: not found: value TweetController
+  import TweetController._
+         ^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:6:10: stale bloop error: not found: value UserController
+  import UserController._
+         ^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:4:10: stale bloop error: not found: value FollowController
+  import FollowController._
+         ^^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:5:10: stale bloop error: not found: value TweetController
+  import TweetController._
+         ^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:6:10: stale bloop error: not found: value UserController
+  import UserController._
+         ^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:4:10: stale bloop error: not found: value FollowController
+  import FollowController._
+         ^^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:5:10: stale bloop error: not found: value TweetController
+  import TweetController._
+         ^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:6:10: stale bloop error: not found: value UserController
+  import UserController._
+         ^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:4:10: stale bloop error: not found: value FollowController
+  import FollowController._
+         ^^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:5:10: stale bloop error: not found: value TweetController
+  import TweetController._
+         ^^^^^^^^^^^^^^^
+2020.07.13 00:53:36 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:6:10: stale bloop error: not found: value UserController
+  import UserController._
+         ^^^^^^^^^^^^^^
+2020.07.13 00:53:40 INFO  compiling root (1 scala source)
+2020.07.13 00:53:40 INFO  time: compiled root in 0.19s
+2020.07.13 00:53:47 INFO  compiling root (1 scala source)
+2020.07.13 00:53:47 INFO  time: compiled root in 0.16s
+2020.07.13 00:54:37 INFO  compiling root (1 scala source)
+2020.07.13 00:54:37 INFO  time: compiled root in 0.15s
+2020.07.13 00:55:10 INFO  compiling root (1 scala source)
+2020.07.13 00:55:10 INFO  time: compiled root in 0.22s
+2020.07.13 00:55:40 INFO  compiling root (1 scala source)
+2020.07.13 00:55:40 INFO  time: compiled root in 0.18s
+2020.07.13 00:55:58 INFO  compiling root (1 scala source)
+2020.07.13 00:55:58 INFO  time: compiled root in 0.21s
+2020.07.13 00:57:23 INFO  compiling root (1 scala source)
+2020.07.13 00:57:23 INFO  time: compiled root in 0.19s
+2020.07.13 00:57:31 INFO  compiling root (1 scala source)
+2020.07.13 00:57:31 INFO  time: compiled root in 0.18s
+2020.07.13 00:57:50 INFO  compiling root (1 scala source)
+2020.07.13 00:57:50 INFO  time: compiled root in 0.17s
+2020.07.13 00:57:57 INFO  compiling root (1 scala source)
+2020.07.13 00:57:57 INFO  time: compiled root in 0.15s
+2020.07.13 00:58:00 INFO  compiling root (1 scala source)
+2020.07.13 00:58:00 INFO  time: compiled root in 0.14s
+2020.07.13 00:58:00 INFO  compiling root (1 scala source)
+2020.07.13 00:58:00 INFO  time: compiled root in 83ms
+2020.07.13 00:58:01 INFO  compiling root (1 scala source)
+2020.07.13 00:58:01 INFO  time: compiled root in 73ms
+2020.07.13 00:58:47 INFO  compiling root (1 scala source)
+2020.07.13 00:58:47 INFO  time: compiled root in 0.36s
+7 13, 2020 12:58:53 ?? scala.meta.internal.pc.completions.Completions completionPosition
+??: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:662)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:427)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:447)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:442)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+7 13, 2020 12:58:55 ?? scala.meta.internal.pc.completions.Completions completionPosition
+??: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:662)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:427)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:447)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:413)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:405)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:390)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:442)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:182)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+7 13, 2020 1:00:33 ?? scala.meta.internal.pc.CompletionProvider expected$1
+??: String index out of range: -1
+2020.07.13 01:00:44 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:13:16: stale bloop error: could not find implicit value for parameter um: akka.http.scaladsl.unmarshalling.FromRequestUnmarshaller[com.higherkingpud.twitterclone2.controllers.Protocol.PostUser]
+        entity(as[PostUser]) {
+               ^^^^^^^^^^^^
+2020.07.13 01:00:44 INFO  /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/Routes.scala:13:16: stale bloop error: could not find implicit value for parameter um: akka.http.scaladsl.unmarshalling.FromRequestUnmarshaller[com.higherkingpud.twitterclone2.controllers.Protocol.PostUser]
+        entity(as[PostUser]) {
+               ^^^^^^^^^^^^
+2020.07.13 01:00:58 INFO  compiling root (1 scala source)
+2020.07.13 01:00:58 INFO  time: compiled root in 0.29s
+2020.07.13 01:01:00 INFO  compiling root (1 scala source)
+2020.07.13 01:01:00 INFO  time: compiled root in 0.27s
+2020.07.13 01:01:28 INFO  compiling root (1 scala source)
+2020.07.13 01:01:28 INFO  time: compiled root in 0.23s
+2020.07.13 01:06:02 INFO  compiling root (1 scala source)
+2020.07.13 01:06:02 INFO  time: compiled root in 92ms
+7 13, 2020 1:06:19 ?? org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+??: Unmatched cancel notification for request id 135
+7 13, 2020 1:06:26 ?? org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+??: Unmatched cancel notification for request id 192
+2020.07.13 01:06:47 INFO  compiling root (1 scala source)
+2020.07.13 01:06:47 INFO  time: compiled root in 85ms
+2020.07.13 01:07:02 INFO  compiling root (1 scala source)
+2020.07.13 01:07:02 INFO  time: compiled root in 89ms
+2020.07.13 01:07:03 INFO  compiling root (1 scala source)
+2020.07.13 01:07:03 INFO  time: compiled root in 21ms
+2020.07.13 01:07:21 INFO  compiling root (1 scala source)
+2020.07.13 01:07:21 INFO  time: compiled root in 0.37s
+7 13, 2020 1:07:37 ?? org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+??: Unmatched cancel notification for request id 195
+2020.07.13 01:07:47 INFO  compiling root (1 scala source)
+2020.07.13 01:07:47 INFO  time: compiled root in 0.94s
+2020.07.13 01:08:16 INFO  compiling root (1 scala source)
+2020.07.13 01:08:16 INFO  time: compiled root in 0.84s
+2020.07.13 01:08:27 INFO  compiling root (1 scala source)
+2020.07.13 01:08:27 INFO  time: compiled root in 0.82s
+2020.07.13 01:09:09 INFO  compiling root (1 scala source)
+2020.07.13 01:09:09 INFO  time: compiled root in 0.84s
+2020.07.13 01:13:04 INFO  compiling root (1 scala source)
+2020.07.13 01:13:04 INFO  time: compiled root in 0.15s
+2020.07.13 01:13:07 INFO  compiling root (1 scala source)
+2020.07.13 01:13:07 INFO  time: compiled root in 0.19s
+7 13, 2020 1:13:12 ?? org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+??: Unmatched cancel notification for request id 221
+7 13, 2020 1:13:17 ?? org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+??: Unmatched cancel notification for request id 238
+2020.07.13 01:13:28 INFO  compiling root (1 scala source)
+2020.07.13 01:13:28 INFO  time: compiled root in 0.15s
+7 13, 2020 1:14:15 ?? org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+??: Unmatched cancel notification for request id 242
+7 13, 2020 1:14:17 ?? org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+??: Unmatched cancel notification for request id 275
+2020.07.13 01:14:26 INFO  compiling root (1 scala source)
+2020.07.13 01:14:26 INFO  time: compiled root in 0.18s
+2020.07.13 01:14:37 INFO  compiling root (1 scala source)
+2020.07.13 01:14:37 INFO  time: compiled root in 0.17s
+2020.07.13 01:14:45 INFO  compiling root (1 scala source)
+2020.07.13 01:14:45 INFO  time: compiled root in 0.95s
