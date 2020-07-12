@@ -2110,3 +2110,355 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 2020.07.13 02:20:01 INFO  compiling root (1 scala source)
 2020.07.13 02:20:01 WARN  1 deprecation (since 2.6.0); re-run with -deprecation for details
 2020.07.13 02:20:01 INFO  time: compiled root in 1s
+2020.07.13 02:40:20 WARN  no build target for: /Users/kijimayuutairou/hobby/twitter-clone2/project/Dependencies.scala
+2020.07.13 02:48:30 WARN  no build target for: /Users/kijimayuutairou/hobby/twitter-clone2/project/Dependencies.scala
+2020.07.13 02:48:34 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/metals3452999657223820648/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.07.13 02:48:38 INFO  [info] Loading global plugins from /Users/kijimayuutairou/.sbt/1.0/plugins
+2020.07.13 02:48:39 INFO  [info] Loading settings for project twitter-clone2-build from metals.sbt ...
+2020.07.13 02:48:39 INFO  [info] Loading project definition from /Users/kijimayuutairou/hobby/twitter-clone2/project
+2020.07.13 02:48:39 INFO  [info] Compiling 1 Scala source to /Users/kijimayuutairou/hobby/twitter-clone2/project/target/scala-2.12/sbt-1.0/classes ...
+2020.07.13 02:48:42 INFO  [info] Done compiling.
+2020.07.13 02:48:44 INFO  [info] Loading settings for project root from build.sbt ...
+2020.07.13 02:48:44 INFO  [info] Set current project to twitter-clone2 (in build file:/Users/kijimayuutairou/hobby/twitter-clone2/)
+2020.07.13 02:48:47 INFO  [warn] 
+2020.07.13 02:48:47 INFO  [warn] 	Note: Unresolved dependencies path:
+2020.07.13 02:48:47 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading com.typesafe.akka:akka-stream-test_2.13:2.6.7
+2020.07.13 02:48:47 INFO  [error]   Not found
+2020.07.13 02:48:47 INFO  [error]   Not found
+2020.07.13 02:48:47 INFO  [error]   not found: /Users/kijimayuutairou/.ivy2/local/com.typesafe.akka/akka-stream-test_2.13/2.6.7/ivys/ivy.xml
+2020.07.13 02:48:47 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-test_2.13/2.6.7/akka-stream-test_2.13-2.6.7.pom
+2020.07.13 02:48:47 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:247)
+2020.07.13 02:48:47 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$35(CoursierDependencyResolution.scala:216)
+2020.07.13 02:48:47 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2020.07.13 02:48:47 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:216)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+2020.07.13 02:48:47 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2950)
+2020.07.13 02:48:47 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.Execute.work(Execute.scala:290)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+2020.07.13 02:48:47 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+2020.07.13 02:48:47 INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2020.07.13 02:48:47 INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+2020.07.13 02:48:47 INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2020.07.13 02:48:47 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2020.07.13 02:48:47 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2020.07.13 02:48:47 INFO  [error] 	at java.lang.Thread.run(Thread.java:748)
+2020.07.13 02:48:47 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading com.typesafe.akka:akka-stream-test_2.13:2.6.7
+2020.07.13 02:48:47 INFO  [error]   Not found
+2020.07.13 02:48:47 INFO  [error]   Not found
+2020.07.13 02:48:47 INFO  [error]   not found: /Users/kijimayuutairou/.ivy2/local/com.typesafe.akka/akka-stream-test_2.13/2.6.7/ivys/ivy.xml
+2020.07.13 02:48:47 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-test_2.13/2.6.7/akka-stream-test_2.13-2.6.7.pom
+2020.07.13 02:48:47 INFO  [error] Total time: 2 s, completed 2020/07/13 2:48:47
+2020.07.13 02:48:47 INFO  time: ran 'sbt bloopInstall' in 12s
+2020.07.13 02:48:47 INFO  build tool exit: 1
+2020.07.13 02:48:47 ERROR sbt command failed: /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/metals3452999657223820648/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2020.07.13 02:48:47 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher8232912592768615311/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher8232912592768615311/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher8232912592768615311/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.13 02:48:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kijimayuutairou/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.07.13 02:48:47 INFO  Connected to Build server v1.4.3
+2020.07.13 02:48:47 INFO  time: indexed workspace in 0.32s
+2020.07.13 02:48:47 WARN  no build target for: /Users/kijimayuutairou/hobby/twitter-clone2/project/Dependencies.scala
+2020.07.13 02:48:47 INFO  compiling root-test (1 scala source)
+2020.07.13 02:48:47 INFO  time: compiled root-test in 0.21s
+2020.07.13 02:55:50 INFO  compiling root-test (1 scala source)
+2020.07.13 02:55:50 INFO  time: compiled root-test in 0.16s
+2020.07.13 02:56:20 INFO  compiling root-test (1 scala source)
+2020.07.13 02:56:20 INFO  time: compiled root-test in 0.14s
+2020.07.13 02:56:25 INFO  compiling root-test (1 scala source)
+2020.07.13 02:56:26 INFO  time: compiled root-test in 1.02s
+2020.07.13 02:56:54 INFO  compiling root-test (1 scala source)
+2020.07.13 02:56:54 INFO  time: compiled root-test in 0.1s
+2020.07.13 02:56:56 INFO  compiling root-test (1 scala source)
+2020.07.13 02:56:56 INFO  time: compiled root-test in 0.1s
+2020.07.13 02:57:08 INFO  compiling root-test (1 scala source)
+2020.07.13 02:57:08 INFO  time: compiled root-test in 0.1s
+2020.07.13 02:57:26 INFO  compiling root-test (1 scala source)
+2020.07.13 02:57:26 INFO  time: compiled root-test in 94ms
+2020.07.13 02:57:42 INFO  compiling root-test (1 scala source)
+2020.07.13 02:57:42 INFO  time: compiled root-test in 0.1s
+2020.07.13 02:58:23 INFO  compiling root-test (1 scala source)
+2020.07.13 02:58:23 INFO  time: compiled root-test in 98ms
+2020.07.13 02:58:25 INFO  compiling root-test (1 scala source)
+2020.07.13 02:58:25 INFO  time: compiled root-test in 0.13s
+2020.07.13 02:58:36 INFO  compiling root-test (1 scala source)
+2020.07.13 02:58:36 INFO  time: compiled root-test in 0.11s
+2020.07.13 03:02:28 INFO  compiling root-test (1 scala source)
+2020.07.13 03:02:28 INFO  time: compiled root-test in 92ms
+2020.07.13 03:02:46 INFO  compiling root-test (1 scala source)
+2020.07.13 03:02:46 INFO  time: compiled root-test in 0.11s
+2020.07.13 03:02:56 INFO  compiling root-test (1 scala source)
+2020.07.13 03:02:56 INFO  time: compiled root-test in 97ms
+2020.07.13 03:02:58 INFO  compiling root-test (1 scala source)
+2020.07.13 03:02:58 INFO  time: compiled root-test in 90ms
+2020.07.13 03:03:09 INFO  compiling root-test (1 scala source)
+2020.07.13 03:03:09 INFO  time: compiled root-test in 0.48s
+2020.07.13 03:09:54 WARN  no build target for: /Users/kijimayuutairou/hobby/twitter-clone2/project/Dependencies.scala
+2020.07.13 03:10:05 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/metals8744084696653835947/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.07.13 03:10:09 INFO  [info] Loading global plugins from /Users/kijimayuutairou/.sbt/1.0/plugins
+2020.07.13 03:10:10 INFO  [info] Loading settings for project twitter-clone2-build from metals.sbt ...
+2020.07.13 03:10:10 INFO  [info] Loading project definition from /Users/kijimayuutairou/hobby/twitter-clone2/project
+2020.07.13 03:10:10 INFO  [info] Compiling 1 Scala source to /Users/kijimayuutairou/hobby/twitter-clone2/project/target/scala-2.12/sbt-1.0/classes ...
+2020.07.13 03:10:12 INFO  [info] Done compiling.
+2020.07.13 03:10:14 INFO  [info] Loading settings for project root from build.sbt ...
+2020.07.13 03:10:14 INFO  [info] Set current project to twitter-clone2 (in build file:/Users/kijimayuutairou/hobby/twitter-clone2/)
+2020.07.13 03:10:16 INFO  [warn] 
+2020.07.13 03:10:16 INFO  [warn] 	Note: Unresolved dependencies path:
+2020.07.13 03:10:16 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading com.typesafe.akka:akka-stream-test_2.13:2.6.7
+2020.07.13 03:10:16 INFO  [error]   Not found
+2020.07.13 03:10:16 INFO  [error]   Not found
+2020.07.13 03:10:16 INFO  [error]   not found: /Users/kijimayuutairou/.ivy2/local/com.typesafe.akka/akka-stream-test_2.13/2.6.7/ivys/ivy.xml
+2020.07.13 03:10:16 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-test_2.13/2.6.7/akka-stream-test_2.13-2.6.7.pom
+2020.07.13 03:10:16 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:247)
+2020.07.13 03:10:16 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$35(CoursierDependencyResolution.scala:216)
+2020.07.13 03:10:16 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2020.07.13 03:10:16 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:216)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+2020.07.13 03:10:16 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2950)
+2020.07.13 03:10:16 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.Execute.work(Execute.scala:290)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+2020.07.13 03:10:16 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+2020.07.13 03:10:16 INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2020.07.13 03:10:16 INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+2020.07.13 03:10:16 INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+2020.07.13 03:10:16 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2020.07.13 03:10:16 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2020.07.13 03:10:16 INFO  [error] 	at java.lang.Thread.run(Thread.java:748)
+2020.07.13 03:10:16 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading com.typesafe.akka:akka-stream-test_2.13:2.6.7
+2020.07.13 03:10:16 INFO  [error]   Not found
+2020.07.13 03:10:16 INFO  [error]   Not found
+2020.07.13 03:10:16 INFO  [error]   not found: /Users/kijimayuutairou/.ivy2/local/com.typesafe.akka/akka-stream-test_2.13/2.6.7/ivys/ivy.xml
+2020.07.13 03:10:16 INFO  [error]   not found: https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-test_2.13/2.6.7/akka-stream-test_2.13-2.6.7.pom
+2020.07.13 03:10:16 INFO  [error] Total time: 2 s, completed 2020/07/13 3:10:16
+2020.07.13 03:10:16 INFO  build tool exit: 1
+2020.07.13 03:10:16 INFO  time: ran 'sbt bloopInstall' in 11s
+2020.07.13 03:10:16 ERROR sbt command failed: /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/metals8744084696653835947/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2020.07.13 03:10:16 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher1300952180439711050/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher1300952180439711050/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher1300952180439711050/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.13 03:10:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kijimayuutairou/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.07.13 03:10:16 INFO  Connected to Build server v1.4.3
+2020.07.13 03:10:16 INFO  time: indexed workspace in 0.25s
+2020.07.13 03:10:16 WARN  no build target for: /Users/kijimayuutairou/hobby/twitter-clone2/project/Dependencies.scala
+2020.07.13 03:23:39 INFO  compiling root-test (1 scala source)
+2020.07.13 03:23:39 INFO  time: compiled root-test in 0.11s
+2020.07.13 03:23:40 INFO  compiling root-test (1 scala source)
+2020.07.13 03:23:40 INFO  time: compiled root-test in 0.12s
+2020.07.13 03:23:47 INFO  compiling root-test (1 scala source)
+2020.07.13 03:23:47 INFO  time: compiled root-test in 0.1s
+2020.07.13 03:25:35 INFO  compiling root-test (1 scala source)
+2020.07.13 03:25:35 INFO  time: compiled root-test in 0.11s
+2020.07.13 03:26:00 INFO  compiling root-test (1 scala source)
+2020.07.13 03:26:00 INFO  time: compiled root-test in 0.11s
+2020.07.13 03:26:03 INFO  compiling root-test (1 scala source)
+2020.07.13 03:26:03 INFO  time: compiled root-test in 0.11s
+2020.07.13 03:26:10 INFO  compiling root-test (1 scala source)
+2020.07.13 03:26:10 INFO  time: compiled root-test in 0.12s
+2020.07.13 03:27:00 INFO  compiling root-test (1 scala source)
+2020.07.13 03:27:00 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:27:00 INFO  time: compiled root-test in 0.98s
+2020.07.13 03:27:15 INFO  compiling root-test (1 scala source)
+2020.07.13 03:27:15 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:27:15 INFO  time: compiled root-test in 0.83s
+2020.07.13 03:28:16 INFO  compiling root-test (1 scala source)
+2020.07.13 03:28:16 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:28:16 INFO  time: compiled root-test in 0.83s
+2020.07.13 03:29:48 INFO  compiling root-test (1 scala source)
+2020.07.13 03:29:48 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:29:48 INFO  time: compiled root-test in 0.78s
+2020.07.13 03:29:50 INFO  compiling root-test (1 scala source)
+2020.07.13 03:29:50 INFO  time: compiled root-test in 88ms
+2020.07.13 03:29:52 INFO  compiling root-test (1 scala source)
+2020.07.13 03:29:52 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:29:52 INFO  time: compiled root-test in 0.8s
+2020.07.13 03:30:02 INFO  compiling root-test (1 scala source)
+2020.07.13 03:30:02 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:30:02 INFO  time: compiled root-test in 0.71s
+2020.07.13 03:30:42 INFO  compiling root-test (1 scala source)
+2020.07.13 03:30:42 INFO  time: compiled root-test in 0.15s
+2020.07.13 03:30:52 INFO  compiling root-test (1 scala source)
+2020.07.13 03:30:52 INFO  time: compiled root-test in 0.15s
+2020.07.13 03:31:15 INFO  compiling root-test (1 scala source)
+2020.07.13 03:31:15 INFO  time: compiled root-test in 0.13s
+7 13, 2020 3:31:23 ?? org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+??: Unmatched cancel notification for request id 183
+2020.07.13 03:31:30 INFO  compiling root-test (1 scala source)
+2020.07.13 03:31:30 INFO  time: compiled root-test in 0.15s
+2020.07.13 03:31:37 INFO  compiling root-test (1 scala source)
+2020.07.13 03:31:37 INFO  time: compiled root-test in 0.14s
+2020.07.13 03:32:00 INFO  compiling root-test (1 scala source)
+2020.07.13 03:32:00 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:32:00 INFO  time: compiled root-test in 0.97s
+2020.07.13 03:32:02 INFO  compiling root-test (1 scala source)
+2020.07.13 03:32:02 INFO  time: compiled root-test in 85ms
+2020.07.13 03:32:15 INFO  compiling root-test (1 scala source)
+2020.07.13 03:32:15 INFO  time: compiled root-test in 83ms
+2020.07.13 03:32:41 INFO  compiling root-test (1 scala source)
+2020.07.13 03:32:41 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:32:41 INFO  time: compiled root-test in 0.68s
+7 13, 2020 3:36:00 ?? scala.meta.internal.pc.CompletionProvider expected$1
+??: String index out of range: -1
+2020.07.13 03:36:26 INFO  compiling root-test (1 scala source)
+2020.07.13 03:36:26 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:36:26 INFO  time: compiled root-test in 0.84s
+2020.07.13 03:36:45 INFO  compiling root-test (1 scala source)
+2020.07.13 03:36:45 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:36:45 INFO  time: compiled root-test in 0.85s
+2020.07.13 03:36:47 INFO  compiling root-test (1 scala source)
+2020.07.13 03:36:47 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:36:47 INFO  time: compiled root-test in 0.41s
+2020.07.13 03:37:05 INFO  compiling root-test (1 scala source)
+2020.07.13 03:37:05 INFO  time: compiled root-test in 0.23s
+2020.07.13 03:37:09 INFO  compiling root-test (1 scala source)
+2020.07.13 03:37:09 INFO  time: compiled root-test in 0.24s
+2020.07.13 03:37:50 INFO  compiling root-test (1 scala source)
+2020.07.13 03:37:50 INFO  time: compiled root-test in 0.19s
+2020.07.13 03:37:55 INFO  compiling root-test (1 scala source)
+2020.07.13 03:37:55 INFO  time: compiled root-test in 0.17s
+2020.07.13 03:38:38 INFO  compiling root-test (1 scala source)
+2020.07.13 03:38:38 INFO  time: compiled root-test in 0.24s
+2020.07.13 03:39:33 WARN  no build target for: /Users/kijimayuutairou/hobby/twitter-clone2/project/Dependencies.scala
+2020.07.13 03:39:35 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/metals6034774205108778300/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.07.13 03:39:39 INFO  [info] Loading global plugins from /Users/kijimayuutairou/.sbt/1.0/plugins
+2020.07.13 03:39:40 INFO  [info] Loading settings for project twitter-clone2-build from metals.sbt ...
+2020.07.13 03:39:40 INFO  [info] Loading project definition from /Users/kijimayuutairou/hobby/twitter-clone2/project
+2020.07.13 03:39:40 INFO  [info] Compiling 1 Scala source to /Users/kijimayuutairou/hobby/twitter-clone2/project/target/scala-2.12/sbt-1.0/classes ...
+2020.07.13 03:39:43 INFO  [info] Done compiling.
+2020.07.13 03:39:45 INFO  [info] Loading settings for project root from build.sbt ...
+2020.07.13 03:39:45 INFO  [info] Set current project to twitter-clone2 (in build file:/Users/kijimayuutairou/hobby/twitter-clone2/)
+2020.07.13 03:39:49 INFO  [success] Generated .bloop/root.json
+2020.07.13 03:39:49 INFO  [success] Generated .bloop/root-test.json
+2020.07.13 03:39:49 INFO  [success] Total time: 4 s, completed 2020/07/13 3:39:49
+2020.07.13 03:39:49 INFO  build tool exit: 0
+2020.07.13 03:39:49 INFO  time: ran 'sbt bloopInstall' in 14s
+2020.07.13 03:39:49 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher6624395865517267925/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop/root-test.json'
+[0m[32m[D][0m Loading project from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop/root.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'root', 'root-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher6624395865517267925/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher6624395865517267925/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.13 03:39:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kijimayuutairou/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.07.13 03:39:49 INFO  Connected to Build server v1.4.3
+2020.07.13 03:39:49 INFO  time: indexed workspace in 0.53s
+2020.07.13 03:39:50 WARN  no build target for: /Users/kijimayuutairou/hobby/twitter-clone2/project/Dependencies.scala
+2020.07.13 03:39:50 INFO  compiling root (6 scala sources)
+2020.07.13 03:39:52 WARN  1 deprecation (since 2.6.0); re-run with -deprecation for details
+2020.07.13 03:39:52 INFO  time: compiled root in 1.72s
+2020.07.13 03:39:52 INFO  compiling root-test (1 scala source)
+2020.07.13 03:39:52 INFO  time: compiled root-test in 0.17s
+2020.07.13 03:40:24 INFO  compiling root-test (1 scala source)
+2020.07.13 03:40:24 INFO  time: compiled root-test in 0.23s
+2020.07.13 03:41:57 INFO  compiling root-test (1 scala source)
+2020.07.13 03:41:57 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:41:57 INFO  time: compiled root-test in 0.86s
+2020.07.13 03:42:21 INFO  compiling root-test (1 scala source)
+2020.07.13 03:42:21 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:42:21 INFO  time: compiled root-test in 0.85s
+2020.07.13 03:42:25 INFO  compiling root-test (1 scala source)
+2020.07.13 03:42:25 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:42:25 INFO  time: compiled root-test in 0.85s
+2020.07.13 03:42:36 INFO  compiling root-test (1 scala source)
+2020.07.13 03:42:36 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:42:36 INFO  time: compiled root-test in 0.76s
+2020.07.13 03:45:35 INFO  compiling root-test (1 scala source)
+2020.07.13 03:45:35 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:45:35 INFO  time: compiled root-test in 0.78s
+2020.07.13 03:46:02 INFO  compiling root-test (1 scala source)
+2020.07.13 03:46:02 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:46:02 INFO  time: compiled root-test in 0.84s
+2020.07.13 03:46:49 INFO  compiling root-test (1 scala source)
+2020.07.13 03:46:49 INFO  time: compiled root-test in 0.25s
+2020.07.13 03:46:53 INFO  compiling root-test (1 scala source)
+2020.07.13 03:46:53 INFO  time: compiled root-test in 85ms
+2020.07.13 03:46:58 INFO  compiling root-test (1 scala source)
+2020.07.13 03:46:58 INFO  time: compiled root-test in 91ms
+2020.07.13 03:47:01 INFO  compiling root-test (1 scala source)
+2020.07.13 03:47:01 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:47:01 INFO  time: compiled root-test in 0.77s
+2020.07.13 03:48:07 INFO  compiling root-test (2 scala sources)
+2020.07.13 03:48:07 WARN  4 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:48:07 INFO  time: compiled root-test in 0.89s
+2020.07.13 03:48:56 INFO  compiling root-test (1 scala source)
+2020.07.13 03:48:56 INFO  time: compiled root-test in 0.5s
+2020.07.13 03:48:58 INFO  compiling root-test (1 scala source)
+2020.07.13 03:48:58 INFO  time: compiled root-test in 24ms
+2020.07.13 03:49:01 INFO  compiling root-test (1 scala source)
+2020.07.13 03:49:01 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:49:01 INFO  time: compiled root-test in 0.75s
+2020.07.13 03:49:03 INFO  compiling root-test (3 scala sources)
+2020.07.13 03:49:03 INFO  time: compiled root-test in 92ms
+2020.07.13 03:49:41 INFO  compiling root-test (3 scala sources)
+2020.07.13 03:49:41 WARN  6 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:49:41 INFO  time: compiled root-test in 0.93s
+2020.07.13 03:50:25 INFO  compiling root-test (1 scala source)
+2020.07.13 03:50:25 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:50:25 INFO  time: compiled root-test in 0.75s
+2020.07.13 03:50:39 INFO  compiling root-test (1 scala source)
+2020.07.13 03:50:39 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:50:39 INFO  time: compiled root-test in 0.7s
+2020.07.13 03:50:54 INFO  compiling root-test (1 scala source)
+2020.07.13 03:50:54 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:50:54 INFO  time: compiled root-test in 0.68s
+2020.07.13 03:50:58 INFO  compiling root-test (1 scala source)
+2020.07.13 03:50:58 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:50:58 INFO  time: compiled root-test in 0.72s
+2020.07.13 03:51:26 INFO  compiling root-test (1 scala source)
+2020.07.13 03:51:26 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
+2020.07.13 03:51:26 INFO  time: compiled root-test in 0.71s
