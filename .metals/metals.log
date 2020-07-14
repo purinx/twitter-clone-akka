@@ -2462,3 +2462,306 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 2020.07.13 03:51:26 INFO  compiling root-test (1 scala source)
 2020.07.13 03:51:26 WARN  2 deprecations (since 3.1.0); re-run with -deprecation for details
 2020.07.13 03:51:26 INFO  time: compiled root-test in 0.71s
+No more data in the client stdin, exiting...
+2020.07.13 16:28:23 INFO  started: Metals version 0.9.1 in workspace '/Users/kijimayuutairou/hobby/twitter-clone2'
+2020.07.13 16:28:23 INFO  time: initialize in 0.29s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher8476947560538438589/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.13 16:28:24 INFO  no build target: using presentation compiler with only scala-library
+2020.07.13 16:28:24 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+2020.07.13 16:28:26 WARN  no build target for: /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/FollowController.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop/root-test.json'
+[0m[32m[D][0m Loading project from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop/root.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.2.
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Loading previous analysis for 'root-test' from '/Users/kijimayuutairou/hobby/twitter-clone2/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'root' from '/Users/kijimayuutairou/hobby/twitter-clone2/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher8476947560538438589/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher8476947560538438589/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.13 16:28:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kijimayuutairou/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.07.13 16:28:28 INFO  time: connected to build server in 4.56s
+2020.07.13 16:28:28 INFO  Connected to Build server v1.4.3
+2020.07.13 16:28:28 INFO  time: imported build in 0.13s
+2020.07.13 16:28:30 INFO  time: indexed workspace in 1.45s
+No more data in the client stdin, exiting...
+2020.07.14 01:36:56 INFO  started: Metals version 0.9.1 in workspace '/Users/kijimayuutairou/hobby/twitter-clone2'
+2020.07.14 01:36:56 INFO  time: initialize in 0.29s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher3424396531046319456/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.14 01:36:57 INFO  no build target: using presentation compiler with only scala-library
+2020.07.14 01:36:57 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+2020.07.14 01:36:59 WARN  no build target for: /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/controllers/FollowController.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop/root.json'
+[0m[32m[D][0m Loading project from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop/root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.2.
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root', 'root-test'
+[0m[32m[D][0m Loading previous analysis for 'root-test' from '/Users/kijimayuutairou/hobby/twitter-clone2/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'root' from '/Users/kijimayuutairou/hobby/twitter-clone2/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher3424396531046319456/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher3424396531046319456/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.14 01:37:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kijimayuutairou/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.07.14 01:37:02 INFO  time: connected to build server in 5.26s
+2020.07.14 01:37:02 INFO  Connected to Build server v1.4.3
+2020.07.14 01:37:02 INFO  time: imported build in 0.1s
+2020.07.14 01:37:04 INFO  time: indexed workspace in 1.87s
+2020.07.14 01:40:19 INFO  compiling root (1 scala source)
+2020.07.14 01:40:24 INFO  time: compiled root in 4.92s
+2020.07.14 04:36:13 INFO  compiling root (1 scala source)
+2020.07.14 04:36:13 INFO  time: compiled root in 0.53s
+2020.07.14 04:37:02 INFO  compiling root (1 scala source)
+2020.07.14 04:37:02 INFO  time: compiled root in 0.45s
+2020.07.14 04:37:03 INFO  compiling root (1 scala source)
+2020.07.14 04:37:03 INFO  time: compiled root in 0.3s
+2020.07.14 04:37:39 INFO  compiling root (1 scala source)
+2020.07.14 04:37:39 INFO  time: compiled root in 0.83s
+2020.07.14 04:38:00 INFO  compiling root (1 scala source)
+2020.07.14 04:38:00 INFO  time: compiled root in 0.64s
+No more data in the client stdin, exiting...
+2020.07.14 08:22:39 INFO  started: Metals version 0.9.1 in workspace '/Users/kijimayuutairou/hobby/twitter-clone2'
+2020.07.14 08:22:39 INFO  time: initialize in 0.28s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher6242324268700774868/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.07.14 08:22:39 INFO  no build target: using presentation compiler with only scala-library
+2020.07.14 08:22:39 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+2020.07.14 08:22:41 WARN  no build target for: /Users/kijimayuutairou/hobby/twitter-clone2/src/main/scala/com/higherkingpud/twitterclone2/domain/entities/User.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop/root-test.json'
+[0m[32m[D][0m Loading project from '/Users/kijimayuutairou/hobby/twitter-clone2/.bloop/root.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.2.
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar
+[0m[32m[D][0m   => /Users/kijimayuutairou/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root', 'root-test'
+[0m[32m[D][0m Loading previous analysis for 'root-test' from '/Users/kijimayuutairou/hobby/twitter-clone2/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'root' from '/Users/kijimayuutairou/hobby/twitter-clone2/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher6242324268700774868/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/rj/fsj_d_256hb229w6lltn02ph0000gn/T/bsp-launcher6242324268700774868/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.14 08:22:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kijimayuutairou/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.07.14 08:22:44 INFO  time: connected to build server in 4.77s
+2020.07.14 08:22:44 INFO  Connected to Build server v1.4.3
+2020.07.14 08:22:46 INFO  time: indexed workspace in 2.11s
+2020.07.14 08:24:21 INFO  compiling root (1 scala source)
+2020.07.14 08:24:22 INFO  time: compiled root in 1.44s
+2020.07.14 08:25:53 INFO  compiling root (1 scala source)
+2020.07.14 08:25:54 INFO  time: compiled root in 1.14s
+2020.07.14 08:25:56 INFO  compiling root (1 scala source)
+2020.07.14 08:25:56 INFO  time: compiled root in 0.7s
+2020.07.14 08:26:11 INFO  compiling root (1 scala source)
+2020.07.14 08:26:12 INFO  time: compiled root in 1.61s
+2020.07.14 08:28:16 INFO  compiling root (1 scala source)
+2020.07.14 08:28:16 INFO  time: compiled root in 0.37s
+2020.07.14 08:28:20 INFO  compiling root (1 scala source)
+2020.07.14 08:28:20 INFO  time: compiled root in 0.43s
+2020.07.14 08:28:32 INFO  compiling root (1 scala source)
+2020.07.14 08:28:32 INFO  time: compiled root in 0.54s
+2020.07.14 08:28:34 INFO  compiling root (1 scala source)
+2020.07.14 08:28:34 INFO  time: compiled root in 0.53s
+2020.07.14 08:44:41 INFO  compiling root (1 scala source)
+2020.07.14 08:44:41 INFO  time: compiled root in 0.11s
+2020.07.14 08:45:07 INFO  compiling root (1 scala source)
+2020.07.14 08:45:07 INFO  time: compiled root in 0.56s
+2020.07.14 08:45:52 INFO  compiling root (1 scala source)
+2020.07.14 08:45:52 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2020.07.14 08:45:52 INFO  time: compiled root in 0.57s
+2020.07.14 08:59:15 INFO  compiling root (1 scala source)
+2020.07.14 08:59:15 INFO  time: compiled root in 0.1s
+2020.07.14 08:59:24 INFO  compiling root (1 scala source)
+2020.07.14 08:59:24 INFO  time: compiled root in 0.57s
+2020.07.14 08:59:24 INFO  compiling root (1 scala source)
+2020.07.14 08:59:25 INFO  time: compiled root in 0.15s
+2020.07.14 09:00:24 INFO  compiling root (1 scala source)
+2020.07.14 09:00:24 INFO  time: compiled root in 0.68s
+2020.07.14 09:02:07 INFO  compiling root (1 scala source)
+2020.07.14 09:02:07 INFO  time: compiled root in 0.49s
+2020.07.14 09:02:17 INFO  compiling root (1 scala source)
+2020.07.14 09:02:17 INFO  time: compiled root in 0.73s
+2020.07.14 09:02:17 INFO  compiling root (1 scala source)
+2020.07.14 09:02:17 INFO  time: compiled root in 0.17s
+2020.07.14 09:02:19 INFO  compiling root (1 scala source)
+2020.07.14 09:02:19 INFO  time: compiled root in 0.2s
+2020.07.14 09:02:19 INFO  compiling root (1 scala source)
+2020.07.14 09:02:19 INFO  time: compiled root in 47ms
+2020.07.14 09:02:19 INFO  compiling root (1 scala source)
+2020.07.14 09:02:19 INFO  time: compiled root in 0.17s
+2020.07.14 09:02:19 INFO  compiling root (1 scala source)
+2020.07.14 09:02:19 INFO  time: compiled root in 30ms
+2020.07.14 09:02:23 INFO  compiling root (1 scala source)
+2020.07.14 09:02:23 INFO  time: compiled root in 0.53s
+2020.07.14 09:02:23 INFO  compiling root (1 scala source)
+2020.07.14 09:02:23 INFO  time: compiled root in 29ms
+2020.07.14 09:02:42 INFO  compiling root (2 scala sources)
+2020.07.14 09:02:42 INFO  time: compiled root in 0.54s
+2020.07.14 09:02:42 INFO  compiling root (1 scala source)
+2020.07.14 09:02:42 INFO  time: compiled root in 35ms
+2020.07.14 09:02:44 INFO  compiling root (2 scala sources)
+2020.07.14 09:02:44 INFO  time: compiled root in 0.56s
+2020.07.14 09:02:44 INFO  compiling root (1 scala source)
+2020.07.14 09:02:44 INFO  time: compiled root in 31ms
+2020.07.14 09:02:44 INFO  compiling root (2 scala sources)
+2020.07.14 09:02:44 INFO  time: compiled root in 0.18s
+2020.07.14 09:02:44 INFO  compiling root (1 scala source)
+2020.07.14 09:02:44 INFO  time: compiled root in 34ms
+2020.07.14 09:03:14 INFO  compiling root (2 scala sources)
+2020.07.14 09:03:14 INFO  time: compiled root in 0.71s
+2020.07.14 09:03:14 INFO  compiling root (1 scala source)
+2020.07.14 09:03:14 INFO  time: compiled root in 37ms
+2020.07.14 09:03:34 INFO  compiling root (3 scala sources)
+2020.07.14 09:03:34 INFO  time: compiled root in 0.59s
+2020.07.14 09:03:34 INFO  compiling root (1 scala source)
+2020.07.14 09:03:34 INFO  time: compiled root in 26ms
+2020.07.14 09:03:38 INFO  compiling root (3 scala sources)
+2020.07.14 09:03:38 INFO  time: compiled root in 0.61s
+2020.07.14 09:03:38 INFO  compiling root (1 scala source)
+2020.07.14 09:03:38 INFO  time: compiled root in 27ms
+2020.07.14 09:03:38 INFO  compiling root (3 scala sources)
+2020.07.14 09:03:38 INFO  time: compiled root in 0.21s
+2020.07.14 09:03:38 INFO  compiling root (1 scala source)
+2020.07.14 09:03:38 INFO  time: compiled root in 27ms
+2020.07.14 09:04:15 INFO  compiling root (3 scala sources)
+2020.07.14 09:04:15 INFO  time: compiled root in 0.66s
+2020.07.14 09:04:15 INFO  compiling root (1 scala source)
+2020.07.14 09:04:15 INFO  time: compiled root in 27ms
+2020.07.14 09:04:35 INFO  compiling root (3 scala sources)
+2020.07.14 09:04:35 INFO  time: compiled root in 0.67s
+2020.07.14 09:04:35 INFO  compiling root (1 scala source)
+2020.07.14 09:04:35 INFO  time: compiled root in 27ms
+2020.07.14 09:06:03 INFO  compiling root (3 scala sources)
+2020.07.14 09:06:03 INFO  time: compiled root in 0.68s
+2020.07.14 09:06:03 INFO  compiling root (1 scala source)
+2020.07.14 09:06:03 INFO  time: compiled root in 28ms
+7 14, 2020 9:06:09 ?? org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+??: Unmatched cancel notification for request id 33
+2020.07.14 09:06:27 INFO  compiling root (3 scala sources)
+2020.07.14 09:06:27 INFO  time: compiled root in 0.95s
+2020.07.14 09:06:27 INFO  compiling root (1 scala source)
+2020.07.14 09:06:27 INFO  time: compiled root in 36ms
+2020.07.14 09:06:57 INFO  compiling root (3 scala sources)
+2020.07.14 09:06:57 INFO  time: compiled root in 0.72s
+2020.07.14 09:06:57 INFO  compiling root (1 scala source)
+2020.07.14 09:06:57 INFO  time: compiled root in 32ms
+2020.07.14 09:07:47 INFO  compiling root (3 scala sources)
+2020.07.14 09:07:47 INFO  time: compiled root in 0.13s
+2020.07.14 09:08:02 INFO  compiling root (3 scala sources)
+2020.07.14 09:08:02 INFO  time: compiled root in 0.72s
+2020.07.14 09:08:02 INFO  compiling root (1 scala source)
+2020.07.14 09:08:02 INFO  time: compiled root in 27ms
+2020.07.14 09:08:43 INFO  compiling root (3 scala sources)
+2020.07.14 09:08:43 INFO  time: compiled root in 0.13s
+2020.07.14 09:09:04 INFO  compiling root (3 scala sources)
+2020.07.14 09:09:04 INFO  time: compiled root in 0.72s
+2020.07.14 09:09:04 INFO  compiling root (1 scala source)
+2020.07.14 09:09:04 INFO  time: compiled root in 25ms
+2020.07.14 09:25:41 INFO  compiling root (4 scala sources)
+2020.07.14 09:25:41 INFO  time: compiled root in 0.86s
+2020.07.14 09:25:59 INFO  compiling root (1 scala source)
+2020.07.14 09:25:59 INFO  time: compiled root in 0.23s
+2020.07.14 09:25:59 INFO  compiling root (1 scala source)
+2020.07.14 09:26:00 INFO  time: compiled root in 0.15s
+2020.07.14 09:26:12 INFO  compiling root (1 scala source)
+2020.07.14 09:26:12 INFO  time: compiled root in 0.42s
+2020.07.14 09:53:24 INFO  compiling root (1 scala source)
+2020.07.14 09:53:24 INFO  time: compiled root in 0.49s
+2020.07.14 09:53:27 INFO  compiling root (1 scala source)
+2020.07.14 09:53:27 INFO  time: compiled root in 0.53s
+2020.07.14 10:01:34 INFO  compiling root (1 scala source)
+2020.07.14 10:01:34 INFO  time: compiled root in 0.27s
+2020.07.14 10:01:36 INFO  compiling root (1 scala source)
+2020.07.14 10:01:36 INFO  time: compiled root in 0.35s
+2020.07.14 10:01:44 INFO  compiling root (1 scala source)
+2020.07.14 10:01:44 INFO  time: compiled root in 0.4s
+2020.07.14 10:01:45 INFO  compiling root (1 scala source)
+2020.07.14 10:01:45 INFO  time: compiled root in 0.41s
+7 14, 2020 10:02:50 ?? org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+??: Unmatched cancel notification for request id 330
+2020.07.14 10:03:22 INFO  compiling root (1 scala source)
+2020.07.14 10:03:22 INFO  time: compiled root in 79ms
+7 14, 2020 10:03:34 ?? org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+??: Unmatched cancel notification for request id 430
+2020.07.14 10:04:18 INFO  compiling root (1 scala source)
+2020.07.14 10:04:18 INFO  time: compiled root in 82ms
+2020.07.14 10:04:35 INFO  compiling root (1 scala source)
+2020.07.14 10:04:35 INFO  time: compiled root in 0.1s
+2020.07.14 10:04:43 INFO  compiling root (1 scala source)
+2020.07.14 10:04:43 INFO  time: compiled root in 0.57s
+2020.07.14 10:04:46 INFO  compiling root (1 scala source)
+2020.07.14 10:04:46 INFO  time: compiled root in 0.55s
+7 14, 2020 10:05:01 ?? org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+??: Unmatched cancel notification for request id 460
+2020.07.14 10:05:10 INFO  compiling root (1 scala source)
+2020.07.14 10:05:10 INFO  time: compiled root in 0.55s
+2020.07.14 10:07:08 INFO  compiling root (1 scala source)
+2020.07.14 10:07:08 INFO  time: compiled root in 0.56s
+2020.07.14 10:07:15 INFO  compiling root (1 scala source)
+2020.07.14 10:07:15 INFO  time: compiled root in 0.46s
+2020.07.14 10:07:20 INFO  compiling root (1 scala source)
+2020.07.14 10:07:20 INFO  time: compiled root in 0.48s
+2020.07.14 10:07:38 INFO  compiling root (1 scala source)
+2020.07.14 10:07:38 INFO  time: compiled root in 0.5s
+2020.07.14 10:07:46 INFO  compiling root (1 scala source)
+2020.07.14 10:07:46 INFO  time: compiled root in 0.93s
+2020.07.14 10:07:53 INFO  compiling root (1 scala source)
+2020.07.14 10:07:53 INFO  time: compiled root in 0.48s
