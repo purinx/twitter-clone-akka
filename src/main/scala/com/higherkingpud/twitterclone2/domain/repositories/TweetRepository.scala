@@ -1,14 +1,16 @@
 package com.higherkingpud.twitterclone2.domain.repositories
 
 import com.higherkingpud.twitterclone2.domain.entities.TweetId
-import com.higherkingpud.twitterclone2.domain.repositories.TweetRepository.TweetCreating
+
+import scala.concurrent.Future
 
 object TweetRepository {
   case class TweetCreating(id: TweetId, userId: String, text: String)
 }
 
 trait TweetRepository {
-  def create(tweet: TweetCreating): Unit
+  import TweetRepository._
+  def create(tweet: TweetCreating): Future[Unit]
 
-  def delete(id: TweetId): Unit
+  def drop(id: TweetId): Future[Unit]
 }
