@@ -34,11 +34,11 @@ class UserRepositoryOnMySQL(
 
   def create(user: UserCreating): Future[Unit] = Future {
     withSQL {
-      insert.into(UserSchema).namedValues{
-        columns.id -> user.id.toString
-        columns.name -> user.name
-        columns.phoneNumber -> user.phoneNumber
-      }
+      insert.into(UserSchema).namedValues(
+        columns.id -> user.id.toString,
+        columns.name -> user.name,
+        columns.phoneNumber -> user.phoneNumber,
+      )
     }.update.apply()
   }
 }

@@ -18,11 +18,13 @@ object Dependencies {
   lazy val pureconfig = "com.github.pureconfig" %% "pureconfig" % "0.12.3"
   lazy val akka = Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
+    "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
     "com.typesafe.akka" %% "akka-stream" % akkaVersion,
     "com.typesafe.akka" %% "akka-stream-testkit" % akkaVersion % "test",
     "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
     "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
     "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion % "test"
   )
+  lazy val logback = "ch.qos.logback" % "logback-classic" % "1.2.3",
 }
 

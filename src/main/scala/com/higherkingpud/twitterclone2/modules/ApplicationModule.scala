@@ -30,6 +30,19 @@ trait ApplicationModule {
   lazy val httpConfig = config.http
 
   lazy val session: DBSession = AutoSession
+
+  val connectionPoolSettings = ConnectionPoolSettings(
+    initialSize = 1,
+    maxSize = mySQLConfig.maxconnections
+  )
+
+  ConnectionPool.singleton(
+    s"jdbc:mysql://${mySQLConfig.host}:${mySQLConfig.port}/${mySQLConfig.dbname}", 
+    mySQLConfig.username, 
+    mySQLConfig.password, 
+    connectionPoolSettings
+  )
+
   lazy val databaseExecutorContext: ExecutionContext =
     ExecutionContext.fromExecutorService(Executors.newFixedThreadPool(mySQLConfig.threads))
 

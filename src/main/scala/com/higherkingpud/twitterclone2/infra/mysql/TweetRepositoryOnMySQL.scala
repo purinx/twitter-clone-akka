@@ -23,7 +23,7 @@ class TweetRepositoryOnMySQL(
         columns.userId -> tweet.userId,
         columns.text -> tweet.text
       )
-    }
+    }.update.apply()
   }
 
   def drop(tweetId: TweetId): Future[Unit] = Future {

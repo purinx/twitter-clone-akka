@@ -12,6 +12,5 @@ trait UserRepository {
 
   def findById(id: String): Future[Option[User]]
   
-  def create(user: UserCreating): Unit
-
+  def create(user: UserCreating): Future[Unit]
 }

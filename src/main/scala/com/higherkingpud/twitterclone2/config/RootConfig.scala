@@ -5,6 +5,11 @@ case class RootConfig(
   mysql: MySQLConfig
 )
 
+case class AkkaConfig(
+  loggers: List[String],
+  loglevel: String
+)
+
 case class HTTPConfig(
   interface: String,
   port: Int
@@ -16,6 +21,8 @@ case class MySQLConfig(
   dbname: String,
   username: String,
   password: String,
-  threads: Int
+  threads: Int,
+  maxconnections: Int,
+  driver: String
 )
 
