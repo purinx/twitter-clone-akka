@@ -4,22 +4,22 @@ import scalikejdbc._
 import scala.concurrent.{Future, ExecutionContext}
 import com.higherkingpud.twitterclone2.domain.entities.Follow
 import com.higherkingpud.twitterclone2.domain.repositories.FollowRepository
-import com.higherkingpud.twitterclone2.infra.mysql.schemas.FollowSchema
+import com.higherkingpud.twitterclone2.infra.mysql.schemas.{FollowSchema, FollowRecord}
 
 class FollowRepositoryOnMySQL (
   session: DBSession,
   executionContext: ExecutionContext
 ) extends FollowRepository {
-  implicit val s = session
-  implicit val ec = executionContext
+  implicit val s: DBSession = session
+  implicit val ec: ExecutionContext = executionContext
 
-  val columns = FollowSchema.column
+  val columns: ColumnName[FollowRecord] = FollowSchema.column
 
   def create(follow: Follow): Future[Unit] = Future {
     withSQL {
       insert.into(FollowSchema).namedValues(
         columns.followerId -> follow.followerId,
-        columns.followerId -> follow.followeeId
+        columns.followeeId -> follow.followeeId
       )
     }.update.apply()
   }

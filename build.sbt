@@ -7,7 +7,7 @@ ThisBuild / organizationName := "higherkingpud"
 
 lazy val commandside = (project in file("commandside"))
   .settings(
-    name := "twitter-clone2",
+    name := "commandside",
     libraryDependencies += scalaTest % Test,
     libraryDependencies ++= akka,
     libraryDependencies ++= macwire,
@@ -18,7 +18,7 @@ lazy val commandside = (project in file("commandside"))
 
 lazy val queryside = (project in file("queryside"))
   .settings(
-    name := "twitter-clone2",
+    name := "queryside",
     libraryDependencies += scalaTest % Test,
     libraryDependencies ++= akka,
     libraryDependencies ++= macwire,

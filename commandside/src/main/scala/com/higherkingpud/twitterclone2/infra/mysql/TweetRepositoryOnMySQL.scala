@@ -11,10 +11,10 @@ class TweetRepositoryOnMySQL(
   executionContext: ExecutionContext
 ) extends TweetRepository {
   import TweetRepository._
-  implicit val s = session
-  implicit val ec = executionContext
+  implicit val s: DBSession = session
+  implicit val ec: ExecutionContext = executionContext
   
-  val columns = TweetSchema.column
+  val columns: ColumnName[TweetRecord] = TweetSchema.column
 
   def create(tweet: TweetCreating): Future[Unit] = Future {
     withSQL {
