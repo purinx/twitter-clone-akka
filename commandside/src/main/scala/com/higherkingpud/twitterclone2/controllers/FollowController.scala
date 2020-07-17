@@ -12,7 +12,12 @@ class FollowController(
   import Protocol._
 
   def createFollow(follow: PostFollow) = {
-    followRepository.create(Follow(follow.followerId, follow.followeeId))
+    followRepository.create(
+      Follow(
+        follow.followerId,
+        follow.followeeId
+      )
+    )
     complete(follow)
   }
 }

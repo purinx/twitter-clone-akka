@@ -5,7 +5,18 @@ ThisBuild / version := "0.1.0-SNAPSHOT"
 ThisBuild / organization := "com.higherkingpud"
 ThisBuild / organizationName := "higherkingpud"
 
-lazy val root = (project in file("."))
+lazy val commandside = (project in file("commandside"))
+  .settings(
+    name := "twitter-clone2",
+    libraryDependencies += scalaTest % Test,
+    libraryDependencies ++= akka,
+    libraryDependencies ++= macwire,
+    libraryDependencies ++= scalikejdbc,
+    libraryDependencies += pureconfig,
+    libraryDependencies += logback
+  )
+
+lazy val queryside = (project in file("queryside"))
   .settings(
     name := "twitter-clone2",
     libraryDependencies += scalaTest % Test,
@@ -16,6 +27,4 @@ lazy val root = (project in file("."))
     libraryDependencies += pureconfig,
     libraryDependencies += logback
   )
-
-// See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.
 

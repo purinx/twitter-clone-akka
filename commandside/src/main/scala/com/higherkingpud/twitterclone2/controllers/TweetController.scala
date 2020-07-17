@@ -14,11 +14,13 @@ class TweetController(
   import TweetRepository._
 
   def createTweet(tweet: PostTweet) = {
-    tweetRepository.create(TweetCreating(
-      id = TweetId(UUID.randomUUID()),
-      userId = tweet.userId,
-      text = tweet.text
-    ))
+    tweetRepository.create(
+      TweetCreating(
+        id = TweetId(UUID.randomUUID()),
+        userId = tweet.userId,
+        text = tweet.text
+      )
+    )
     complete(tweet)
   }
 }
