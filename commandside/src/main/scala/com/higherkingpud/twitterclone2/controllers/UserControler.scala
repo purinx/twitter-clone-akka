@@ -12,11 +12,13 @@ class UserController(
   import UserRepository._
 
   def createUser(user: PostUser) = {
-    userRepository.create(UserCreating(
-      id = user.id,
-      name = user.name,
-      phoneNumber = user.phoneNumber,
-    ))
+    userRepository.create(
+      UserCreating(
+        id = user.id,
+        name = user.name,
+        phoneNumber = user.phoneNumber,
+      )
+    )
     complete(user)
   }
 

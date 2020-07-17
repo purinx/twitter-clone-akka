@@ -5,7 +5,6 @@ import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives._
 
 trait Routes extends SprayJsonSupport {
-  //TODO replace with DI
   val followController: FollowController
   val userController: UserController
   val tweetController: TweetController
@@ -36,4 +35,3 @@ trait Routes extends SprayJsonSupport {
   }
   }
 }
-
