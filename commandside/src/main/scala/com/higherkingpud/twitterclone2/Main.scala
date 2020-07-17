@@ -19,4 +19,3 @@ object Main extends App with ApplicationModule with Routes {
     httpConfig.port
   )
 }
-

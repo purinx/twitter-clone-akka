@@ -2,4 +2,4 @@ target/
 .idea/
 .bloop/
 .metals/
-
+data/
