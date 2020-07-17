@@ -23,8 +23,8 @@ lazy val queryside = (project in file("queryside"))
     libraryDependencies ++= akka,
     libraryDependencies ++= macwire,
     libraryDependencies ++= scalikejdbc,
+    libraryDependencies += scalikejdbcStreams,
     libraryDependencies += jedis,
     libraryDependencies += pureconfig,
     libraryDependencies += logback
   )
-

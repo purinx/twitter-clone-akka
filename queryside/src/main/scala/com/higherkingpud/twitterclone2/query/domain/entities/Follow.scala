@@ -1,4 +1,4 @@
-import com.higherkingpud.twitterclone2.query.domain.entities
+package com.higherkingpud.twitterclone2.query.domain.entities
 
 case class Follow(
   followerId: String,
